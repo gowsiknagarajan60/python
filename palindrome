@@ -1,0 +1,9 @@
+def is_palindrome(x):
+    str_x = str(x)
+    return str_x == str_x[::-1]
+x1 = 121
+x2 = -121
+x3 = 10
+print(is_palindrome(x1))  
+print(is_palindrome(x2))  
+print(is_palindrome(x3))  
